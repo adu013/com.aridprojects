@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Hub | Arindam Dutta</title>
+    <!-- Link to the external CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <!-- Sidebar Section (Hidden completely on mobile, visible on desktop) -->
+        <aside class="sidebar">
+            <div class="sidebar-content">
+                <div class="brand">
+                    <h1>Arindam Dutta <br />Project Hub</h1>
+                    <p>A collection of things I'm building and experimenting with.</p>
+                </div>
+
+                <!-- Social Icons Section -->
+                <div class="social-links">
+                    <a href="https://github.com/adu013" class="social-icon" target="_blank" rel="noopener noreferrer" title="GitHub">
+                        <svg viewBox="0 0 24 24"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+                    </a>
+                    <a href="https://linkedin.com/in/adu013" class="social-icon" target="_blank" rel="noopener noreferrer" title="LinkedIn">
+                        <svg viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.779-1.75-1.75s.784-1.75 1.75-1.75 1.75.779 1.75 1.75-.784 1.75-1.75 1.75zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                    </a>
+                    <a href="https://x.com/adu013" class="social-icon" target="_blank" rel="noopener noreferrer" title="X (Twitter)">
+                        <svg viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+                    </a>
+                </div>
+
+                <!-- Grouped Navigation Menu -->
+                <nav class="project-nav">
+                    <!-- Boilerplates Section -->
+                    <div class="nav-group">
+                        <h3>Boilerplates</h3>
+                        <ul>
+                            <li><a href="#gin-and-tonic">Gin & Tonic</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Frameworks Section -->
+                    <div class="nav-group">
+                        <h3>Frameworks</h3>
+                        <ul>
+                            <li><a href="#blackbirdjs">BlackbirdJS</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Services Section -->
+                    <div class="nav-group">
+                        <h3>Services</h3>
+                        <ul>
+                            <li><a href="#privy-resume">PrivyResume</a></li>
+                            <li><a href="#time24-day">Time24 Day</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="nav-group">
+    <h3>Browser Extensions</h3>
+    <ul>
+        <li><a href="#matrixspace">MatrixSpace</a></li>
+        <li><a href="#matrixspace-code">MatrixSpace Code</a></li>
+    </ul>
+</div>
+
+                </nav>
+            </div>
+        </aside>
+
+        <!-- Main Project Content -->
+        <div class="main-content">
+            <!-- Mobile Heading (Only visible on small viewports) -->
+            <div class="mobile-heading">
+                <h1>Arindam Dutta <br />Project Hub</h1>
+                <p>A collection of things I'm building and experimenting with.</p>
+            </div>
+
+            <main class="project-list">
+<!-- Boilerplates Section -->
+<section class="project-section">
+    <h2 class="section-title">Boilerplates</h2>
+
+    <!-- Gin & Tonic Card -->
+    <div class="card" id="gin-and-tonic">
+        <div class="card-content">
+            <h2>Gin &amp; Tonic</h2>
+            <p>A clean, production-ready Go MVC boilerplate for the Gin Framework. Integrated with GORM and zero-setup SQLite. Features built-in CSRF protection and middleware-driven session cookie auth.</p>
+            <div class="tags">
+                <span class="tag">Go</span>
+                <span class="tag">Gin</span>
+                <span class="tag">GORM</span>
+                <span class="tag">SQLite</span>
+                <span class="tag">Apache 2.0</span>
+            </div>
+        </div>
+        <div class="card-links">
+            <a href="https://github.com" target="_blank">View Project &rarr;</a>
+        </div>
+    </div>
+</section>
+
+                <!-- Frameworks Section -->
+<section class="project-section">
+    <h2 class="section-title">Frameworks</h2>
+
+    <!-- BlackbirdJS Card -->
+    <div class="card" id="blackbirdjs">
+        <div class="card-content">
+            <h2>BlackbirdJS</h2>
+            <p>The High-Performance, Fine-Grained, Local-First Frontend Engine built on native browser standards.</p>
+            <div class="tags">
+                <span class="tag">JavaScript</span>
+                <span class="tag">Local-First</span>
+                <span class="tag">Fine-Grained</span>
+                <span class="tag">Performance</span>
+                <span class="tag">0 Dependency</span>
+                <span class="tag">Apache 2.0</span>
+            </div>
+        </div>
+        <div class="card-links">
+            <a href="https://blackbirdjs.dev" target="_blank">More Details &rarr;</a>
+        </div>
+    </div>
+</section>
+
+
+                    <!-- Services Section -->
+<section class="project-section">
+    <h2 class="section-title">Services</h2>
+
+    <!-- PrivyResume Card -->
+    <div class="card" id="privy-resume">
+        <div class="card-content">
+            <h2>PrivyResume</h2>
+            <p>A 100% offline, privacy-first resume builder designed to build high-quality professional resume without leaking personal data.</p>
+            <div class="tags">
+                <span class="tag">Privacy-first</span>
+                <span class="tag">100% Offline</span>
+                <span class="tag">Resume Builder</span>
+                <span class="tag">Apache 2.0</span>
+                <span class="tag">React</span>
+            </div>
+        </div>
+        <div class="card-links">
+            <a href="https://privy-resume.traxrep.com/" target="_blank">View Project &rarr;</a>
+            <a href="https://github.com/adu013/privy-resume" target="_blank" style="margin-left: 1.5rem;">View Code &rarr;</a>
+        </div>
+    </div>
+
+    <!-- Time24 DAY Card -->
+    <div class="card" id="time24-day">
+        <div class="card-content">
+            <h2>Time24 DAY</h2>
+            <p>A simple lightweight HTML page to quickly check color-coded days of the week.</p>
+            <div class="tags">
+                <span class="tag">Privacy-first</span>
+                <span class="tag">100% Offline</span>
+                <span class="tag">Lightweight</span>
+                <span class="tag">Utility</span>
+                <span class="tag">Apache 2.0</span>
+                <span class="tag">HTML/CSS</span>
+                <span class="tag">JavaScript</span>
+            </div>
+        </div>
+        <div class="card-links">
+            <a href="https://day.time24.cc" target="_blank">View Project &rarr;</a>
+            <a href="https://github.com/adu013/day.time24" target="_blank" style="margin-left: 1.5rem;">GitHub &rarr;</a>
+        </div>
+    </div>
+</section>
+
+
+                <!-- Browser Extensions Section -->
+<section class="project-section">
+    <h2 class="section-title">Browser Extensions</h2>
+
+    <!-- MatrixSpace Dashboard Card -->
+    <div class="card" id="matrixspace">
+        <div class="card-content">
+            <h2>MatrixSpace</h2>
+            <p>A minimalist, highly customizable cyberpunk dashboard that transforms your default new tab into a secure, functional terminal workspace.</p>
+            <div class="tags">
+                <span class="tag">Privacy-first</span>
+                <span class="tag">100% Offline</span>
+                <span class="tag">Browser Extension</span>
+                <span class="tag">Firefox</span>
+                <span class="tag">Apache 2.0</span>
+                <span class="tag">HTML/CSS</span>
+                <span class="tag">JavaScript</span>
+            </div>
+        </div>
+        <div class="browsers-links" style="margin-bottom: 0.95rem;">
+          Get the Extension:
+          <a class="browsers-icon" href="https://addons.mozilla.org/en-US/firefox/addon/matrixspace/" target="_blank" title="Get the extention for Firefox">
+            <svg viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g id="b75708d097f2188dff6617b0f00facd0"> <path display="inline" d="M511.485,207.83c-0.149-4.707-10.306,22.244-10.711,17.619c-3.021-34.426-10.251-75.365-28.45-103.482 c1.014,5.525-2.582,10.542-5.575,15.052C424.72,60.698,343.521,8.981,250.235,8.981c-72.646,0-137.963,31.362-183.161,81.282 c-4.978-9.444-8.688-22.049-11.08-37.801c-17.838,17.488-26.707,48.39-26.604,92.791c-1.966,3.915-3.83,7.889-5.591,11.918 c-4.381,6.628-10.15,15.579-13.089,20.917C3.072,191.714,0.882,203.031,0.5,212.703c0.062-0.099,0.12-0.189,0.176-0.28 c0.065,2.001,0.326,3.932,0.843,5.736l5.295-4.312c-2.355,13.7-3.597,27.78-3.597,42.152 c0,136.425,110.593,247.019,247.019,247.019c0.391,0,0.779-0.013,1.169-0.015c0.517,0.003,1.031,0.015,1.548,0.015 c0.828,0,1.652-0.023,2.478-0.03c69.305-0.684,131.78-29.888,176.232-76.461c34.243-35.873,63.716-87.972,71.458-139.32 c1.825-12.113,3.616-18.271,4.755-34.171C508.503,244.273,511.749,216.195,511.485,207.83z M161.783,46.594 c28.005-11.845,57.765-17.851,88.453-17.851c30.688,0,60.448,6.006,88.452,17.851c10.745,4.545,21.049,9.882,30.883,15.958 c-18.2-4.293-39.017-6.815-62.39-7.5c12.562,2.506,23.224,5.621,31.837,9.574c13.293,5.867,22.031,13.412,26.112,22.39 c-12.339-2.272-23.471-1.434-33.291,2.396c70.398,27.772,103.808,60.82,99.971,99.008c-5.148-8.02-11.979-13.288-20.719-15.917 c10.782,41.903,11.863,76.5,3.125,103.799c-5.988-18.202-8.148-38.028-13.063-41.858c6.838,56.153-5.739,106.624-31.001,133.68 c4.786-16.521,6.708-30.044,5.62-40.708c-29.683,44.426-60.094,58.476-97.936,59.917c-14.956-0.128-29.088-2.392-42.375-6.71 c-0.137,0.005-0.272,0-0.407,0.005c0.131-0.005,0.262-0.009,0.394-0.013c-19.497-6.537-37.18-17.682-52.898-33.533 c24.564,2.046,46.958-2.21,66.679-12.187l32.327-20.964l-0.119-0.107c4.191-1.557,8.14-1.442,11.977,0.354 c7.898-1.077,10.643-5.268,8.013-12.327c-3.825-5.268-9.574-10.058-16.998-14.24c-16.165-8.392-33.045-7.076-50.643,4.059 c-16.765,9.463-32.925,9.102-48.608-0.961c-10.298-7.056-20.232-16.519-29.811-28.369l-3.834-5.624l14.727-19.755 c10.541,0.957,22.633,3.348,36.275,7.301c2.275-13.05-0.716-26.7-8.976-40.703c0-0.124,0-0.243,0-0.243 c12.813-11.854,24.187-20.471,33.878-25.98c4.315-2.276,10.298-17.956,5.992-20.594c-8.978,0.485-17.961-0.115-26.938-1.915 l-0.12,0.361c-3.715-1.077-8.381-4.311-14.13-9.82l-14.727-14.365c0,0-4.429-5.029-4.072-5.268 c2.034-10.897,5.392-20.232,10.178-28.257c0,0,15.083-17.356,28.62-26.457c-25.148,3.114-47.895,14.369-68.127,33.767 c-16.761-6.114-36.634-4.791-59.505,3.944l0.118-0.115c-1.72-0.789-3.37-1.758-4.954-2.896c3.142-3.557,6.392-7.036,9.771-10.415 C110.417,74.427,134.724,58.039,161.783,46.594z"> </path> </g> </g></svg>
+          </a>
+          <!-- <a class="browsers-icon" href="https://addons.mozilla.org/en-US/firefox/addon/matrixspace/" target="_blank" title="Get the extention for Chrome">
+            <svg viewBox="0 0 32 32"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M21.25 11.031h-10.063c-0.969 0-1.844 0.313-2.625 0.781-1.344 0.844-2.25 2.344-2.313 4.031l-3.875-6.719c2.063-2.625 5.219-4.344 8.813-4.344 4.406 0 8.25 2.563 10.063 6.25zM1.875 9.75l5 8.688c0.031 0.031 0.031 0.063 0.063 0.094 0.438 0.781 1.125 1.406 1.938 1.844 0.719 0.344 1.469 0.594 2.313 0.594s1.625-0.25 2.344-0.594l-3.906 6.719c-5.438-0.781-9.625-5.438-9.625-11.094 0-2.313 0.688-4.469 1.875-6.25zM13.813 11.813h7.781c0.5 1.281 0.813 2.719 0.813 4.188 0 6.188-5.031 11.188-11.219 11.188-0.25 0-0.469 0-0.719-0.031l5-8.625c0.031-0.031 0.031-0.063 0.063-0.094 0.406-0.75 0.625-1.563 0.625-2.438v-0.156c-0.063-1.688-1-3.188-2.344-4.031zM7.469 16c0-2.094 1.625-3.75 3.719-3.75s3.75 1.656 3.75 3.75-1.656 3.75-3.75 3.75-3.719-1.656-3.719-3.75z"></path> </g></svg>
+          </a> -->
+        </div>
+        <div class="card-links">
+            <a href="https://github.com/adu013/matrixspace" target="_blank">View Code &rarr;</a>
+        </div>
+    </div>
+
+    <!-- MatrixSpace Cheat Sheet Card -->
+    <div class="card" id="matrixspace-code">
+        <div class="card-content">
+            <h2>MatrixSpace Code</h2>
+            <p>A MatrixSpace family extension crafted for developers to instantly reference context-specific command cheat sheets on the fly.</p>
+            <div class="tags">
+                <span class="tag">Privacy-first</span>
+                <span class="tag">100% Offline</span>
+                <span class="tag">Browser Extension</span>
+                <span class="tag">Firefox</span>
+                <span class="tag">Apache 2.0</span>
+                <span class="tag">HTML/CSS</span>
+                <span class="tag">JavaScript</span>
+            </div>
+        </div>
+        <!-- <div class="browsers-links" style="margin-bottom: 0.95rem;">
+          Get the Extension:
+          <a class="browsers-icon" href="https://addons.mozilla.org/en-US/firefox/addon/matrixspace/" target="_blank" title="Get the extention for Firefox">
+            <svg viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g id="b75708d097f2188dff6617b0f00facd0"> <path display="inline" d="M511.485,207.83c-0.149-4.707-10.306,22.244-10.711,17.619c-3.021-34.426-10.251-75.365-28.45-103.482 c1.014,5.525-2.582,10.542-5.575,15.052C424.72,60.698,343.521,8.981,250.235,8.981c-72.646,0-137.963,31.362-183.161,81.282 c-4.978-9.444-8.688-22.049-11.08-37.801c-17.838,17.488-26.707,48.39-26.604,92.791c-1.966,3.915-3.83,7.889-5.591,11.918 c-4.381,6.628-10.15,15.579-13.089,20.917C3.072,191.714,0.882,203.031,0.5,212.703c0.062-0.099,0.12-0.189,0.176-0.28 c0.065,2.001,0.326,3.932,0.843,5.736l5.295-4.312c-2.355,13.7-3.597,27.78-3.597,42.152 c0,136.425,110.593,247.019,247.019,247.019c0.391,0,0.779-0.013,1.169-0.015c0.517,0.003,1.031,0.015,1.548,0.015 c0.828,0,1.652-0.023,2.478-0.03c69.305-0.684,131.78-29.888,176.232-76.461c34.243-35.873,63.716-87.972,71.458-139.32 c1.825-12.113,3.616-18.271,4.755-34.171C508.503,244.273,511.749,216.195,511.485,207.83z M161.783,46.594 c28.005-11.845,57.765-17.851,88.453-17.851c30.688,0,60.448,6.006,88.452,17.851c10.745,4.545,21.049,9.882,30.883,15.958 c-18.2-4.293-39.017-6.815-62.39-7.5c12.562,2.506,23.224,5.621,31.837,9.574c13.293,5.867,22.031,13.412,26.112,22.39 c-12.339-2.272-23.471-1.434-33.291,2.396c70.398,27.772,103.808,60.82,99.971,99.008c-5.148-8.02-11.979-13.288-20.719-15.917 c10.782,41.903,11.863,76.5,3.125,103.799c-5.988-18.202-8.148-38.028-13.063-41.858c6.838,56.153-5.739,106.624-31.001,133.68 c4.786-16.521,6.708-30.044,5.62-40.708c-29.683,44.426-60.094,58.476-97.936,59.917c-14.956-0.128-29.088-2.392-42.375-6.71 c-0.137,0.005-0.272,0-0.407,0.005c0.131-0.005,0.262-0.009,0.394-0.013c-19.497-6.537-37.18-17.682-52.898-33.533 c24.564,2.046,46.958-2.21,66.679-12.187l32.327-20.964l-0.119-0.107c4.191-1.557,8.14-1.442,11.977,0.354 c7.898-1.077,10.643-5.268,8.013-12.327c-3.825-5.268-9.574-10.058-16.998-14.24c-16.165-8.392-33.045-7.076-50.643,4.059 c-16.765,9.463-32.925,9.102-48.608-0.961c-10.298-7.056-20.232-16.519-29.811-28.369l-3.834-5.624l14.727-19.755 c10.541,0.957,22.633,3.348,36.275,7.301c2.275-13.05-0.716-26.7-8.976-40.703c0-0.124,0-0.243,0-0.243 c12.813-11.854,24.187-20.471,33.878-25.98c4.315-2.276,10.298-17.956,5.992-20.594c-8.978,0.485-17.961-0.115-26.938-1.915 l-0.12,0.361c-3.715-1.077-8.381-4.311-14.13-9.82l-14.727-14.365c0,0-4.429-5.029-4.072-5.268 c2.034-10.897,5.392-20.232,10.178-28.257c0,0,15.083-17.356,28.62-26.457c-25.148,3.114-47.895,14.369-68.127,33.767 c-16.761-6.114-36.634-4.791-59.505,3.944l0.118-0.115c-1.72-0.789-3.37-1.758-4.954-2.896c3.142-3.557,6.392-7.036,9.771-10.415 C110.417,74.427,134.724,58.039,161.783,46.594z"> </path> </g> </g></svg>
+          </a>
+        </div> -->
+        <div class="card-links">
+            <a href="https://github.com/adu013/matrixspace-code" target="_blank">View Code &rarr;</a>
+        </div>
+    </div>
+</section>
+
+
+            </main>
+
+            <footer>
+                <p>&copy; 2026 Arindam Dutta. All rights reserved.</p>
+            </footer>
+        </div>
+    </div>
+
+</body>
+</html>

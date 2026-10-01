@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+bower_components/
+
+# Environments & Secrets
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.log
+
+# Build Outputs (uncomment if you use a build tool like Vite, Webpack, or Eleventy)
+# dist/
+# build/
+# _site/
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# IDEs and Code Editors
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
